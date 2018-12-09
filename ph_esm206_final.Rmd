@@ -1,0 +1,35 @@
+---
+title: "ESM 206 Final"
+author: "Priscilla Hare"
+date: "December 8, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, include = FALSE}
+#load packages
+
+library(tidyverse)
+library(janitor)
+
+```
+
+```{r, include = FALSE}
+#read in csv files
+
+climate_op <- read_csv('climate_opinion.csv')
+ucsb_climate <- read_csv('ucsb_climate.csv')
+tmas <- read_csv('tmas_df.csv')
+pesticide_res <- read_csv('PesticideResidues.csv')
+ca_pest <- read_csv('ca_county_pesticides.csv')
+
+```
+
+## Task 1 - Climate Change Opinions
+```{r}
+
+```
